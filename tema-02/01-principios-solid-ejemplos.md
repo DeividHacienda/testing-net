@@ -67,7 +67,7 @@ public class UserService
 - Si cambia el acceso a datos, debes modificar esta clase
 - Múltiples razones para cambiar = viola SRP
 
-### ✅ OK CODE
+### ✅ GOOD CODE
 
 ```csharp
 // Validación separada
@@ -254,7 +254,7 @@ public enum CustomerType
 - Alto riesgo de introducir bugs en código existente
 - Dificulta los tests (debes re-testear todo cada vez)
 
-### ✅ OK CODE
+### ✅ GOOD CODE
 
 ```csharp
 // Abstracción para estrategias de descuento
@@ -401,7 +401,7 @@ public void TestRectangleArea()
 - El principio matemático "un cuadrado es un rectángulo" NO aplica en programación orientada a objetos
 - Tests fallan cuando sustituyes la clase base
 
-### ✅ OK CODE
+### ✅ GOOD CODE
 
 ```csharp
 // Abstracción común
@@ -493,7 +493,7 @@ public void MakeBirdFly(Bird bird)
 }
 ```
 
-### ✅ OK CODE
+### ✅ GOOD CODE
 
 ```csharp
 public abstract class Bird
@@ -631,7 +631,7 @@ public class Manager : IWorker
 - Interfaz difícil de testear (muchas dependencias)
 - Acoplamiento innecesario
 
-### ✅ OK CODE
+### ✅ GOOD CODE
 
 ```csharp
 // Interfaces segregadas - cada una con un propósito específico
